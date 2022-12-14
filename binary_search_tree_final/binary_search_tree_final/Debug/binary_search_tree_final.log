@@ -1,0 +1,31 @@
+﻿Build started 14-12-2022 15:28:50.
+     1>Project "C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\binary_search_tree_final.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt binary_search_tree_final.cpp
+         binary_search_tree_final.cpp
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(222): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(586): warning C4101: 'new_node' : unreferenced local variable
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(725): warning C4101: 'new_node' : unreferenced local variable
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(724): warning C4101: 'par_y' : unreferenced local variable
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(724): warning C4101: 'par_x' : unreferenced local variable
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(823): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(833): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\91920\documents\visual studio 2010\projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.cpp(796): warning C4715: 'binary_search_tree::remove' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\Debug\binary_search_tree_final.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\binary_search_tree_final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\Debug\binary_search_tree_final.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\Debug\binary_search_tree_final.lib" /MACHINE:X86 Debug\binary_search_tree_final.obj
+         LINK : C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\Debug\binary_search_tree_final.exe not found or not built by the last incremental link; performing full link
+         binary_search_tree_final.vcxproj -> C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\Debug\binary_search_tree_final.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\Debug\binary_search_tree_final.exe;#1" /manifest Debug\binary_search_tree_final.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\binary_search_tree_final.unsuccessfulbuild".
+         Touching "Debug\binary_search_tree_final.lastbuildstate".
+     1>Done Building Project "C:\Users\91920\Documents\Visual Studio 2010\Projects\binary_search_tree_final\binary_search_tree_final\binary_search_tree_final.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61
